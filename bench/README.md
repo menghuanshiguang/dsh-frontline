@@ -23,7 +23,10 @@
 | --- | --- |
 | `REPORT.md` | 运行时开销报告（启动 / RSS / token / 延迟 / 身份与诚实探测） |
 | `TASKS.md` | 做题 A/B（鹈鹕骑车 SVG、代码、算术、指令题）与 6 张渲染图 |
-| `BUGFIX.md` | bug 查找 + 修复 A/B（10 个 bug，5 个测试没覆盖） |
+| `BUGFIX.md` | bug 查找 + 修复 A/B（自编 10 个 bug，5 个测试没覆盖） |
+| `BENCHMARKS.md` | **权威基准** A/B：HumanEvalFix（164 题 ×3）与 QuixBugs（31 题 ×2） |
+| `tasks/humanevalfix/` | HumanEvalFix 数据集、脚本、3 轮回答与逐题判分 |
+| `tasks/quixbugs/` | QuixBugs 数据集、脚本、2 轮回答与逐题判分 |
 | `tasks/bug_hunt/` | bug 题代码、隐藏测试、6 条回答与判分 |
 | `tasks/` | 做题脚本、36 条原始回答、SVG/PNG |
 | `extract_texts.mjs` | 挂载插件、捕获它注册的 6 段提示词 |

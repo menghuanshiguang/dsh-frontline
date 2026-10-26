@@ -1,0 +1,622 @@
+[
+  {
+    "name": "bitcount",
+    "arm": "with",
+    "pass": true,
+    "ok": 9,
+    "total": 9,
+    "ms": 1502,
+    "outTokens": 90,
+    "err": ""
+  },
+  {
+    "name": "bitcount",
+    "arm": "without",
+    "pass": false,
+    "ok": 0,
+    "total": 9,
+    "ms": 912,
+    "outTokens": 157,
+    "err": "n _call_with_frames_removed\n  File \"/storage/emulated/0/MT2/dsh/test/bench/tasks/quixbugs/out/work/bitcount-without.py\", line 1\n    <｜｜DSML｜｜ calls>\n     ^\nSyntaxError: invalid character '｜' (U+FF5C)\n"
+  },
+  {
+    "name": "bucketsort",
+    "arm": "without",
+    "pass": true,
+    "ok": 7,
+    "total": 7,
+    "ms": 1231,
+    "outTokens": 133,
+    "err": ""
+  },
+  {
+    "name": "bucketsort",
+    "arm": "with",
+    "pass": true,
+    "ok": 7,
+    "total": 7,
+    "ms": 1226,
+    "outTokens": 129,
+    "err": ""
+  },
+  {
+    "name": "find_first_in_sorted",
+    "arm": "with",
+    "pass": true,
+    "ok": 7,
+    "total": 7,
+    "ms": 1177,
+    "outTokens": 193,
+    "err": ""
+  },
+  {
+    "name": "find_first_in_sorted",
+    "arm": "without",
+    "pass": true,
+    "ok": 7,
+    "total": 7,
+    "ms": 1114,
+    "outTokens": 198,
+    "err": ""
+  },
+  {
+    "name": "find_in_sorted",
+    "arm": "without",
+    "pass": true,
+    "ok": 7,
+    "total": 7,
+    "ms": 1040,
+    "outTokens": 181,
+    "err": ""
+  },
+  {
+    "name": "find_in_sorted",
+    "arm": "with",
+    "pass": true,
+    "ok": 7,
+    "total": 7,
+    "ms": 1370,
+    "outTokens": 177,
+    "err": ""
+  },
+  {
+    "name": "flatten",
+    "arm": "with",
+    "pass": false,
+    "ok": 0,
+    "total": 7,
+    "ms": 1110,
+    "outTokens": 126,
+    "err": ""
+  },
+  {
+    "name": "flatten",
+    "arm": "without",
+    "pass": false,
+    "ok": 0,
+    "total": 7,
+    "ms": 902,
+    "outTokens": 130,
+    "err": ""
+  },
+  {
+    "name": "gcd",
+    "arm": "without",
+    "pass": true,
+    "ok": 6,
+    "total": 6,
+    "ms": 1175,
+    "outTokens": 101,
+    "err": ""
+  },
+  {
+    "name": "gcd",
+    "arm": "with",
+    "pass": true,
+    "ok": 6,
+    "total": 6,
+    "ms": 879,
+    "outTokens": 97,
+    "err": ""
+  },
+  {
+    "name": "get_factors",
+    "arm": "with",
+    "pass": true,
+    "ok": 11,
+    "total": 11,
+    "ms": 1197,
+    "outTokens": 161,
+    "err": ""
+  },
+  {
+    "name": "get_factors",
+    "arm": "without",
+    "pass": true,
+    "ok": 11,
+    "total": 11,
+    "ms": 1122,
+    "outTokens": 161,
+    "err": ""
+  },
+  {
+    "name": "hanoi",
+    "arm": "without",
+    "pass": false,
+    "ok": 1,
+    "total": 8,
+    "ms": 1759,
+    "outTokens": 300,
+    "err": ""
+  },
+  {
+    "name": "hanoi",
+    "arm": "with",
+    "pass": false,
+    "ok": 1,
+    "total": 8,
+    "ms": 1838,
+    "outTokens": 300,
+    "err": ""
+  },
+  {
+    "name": "is_valid_parenthesization",
+    "arm": "with",
+    "pass": true,
+    "ok": 3,
+    "total": 3,
+    "ms": 1200,
+    "outTokens": 140,
+    "err": ""
+  },
+  {
+    "name": "is_valid_parenthesization",
+    "arm": "without",
+    "pass": true,
+    "ok": 3,
+    "total": 3,
+    "ms": 1274,
+    "outTokens": 144,
+    "err": ""
+  },
+  {
+    "name": "kheapsort",
+    "arm": "without",
+    "pass": false,
+    "ok": 0,
+    "total": 4,
+    "ms": 1553,
+    "outTokens": 304,
+    "err": ""
+  },
+  {
+    "name": "kheapsort",
+    "arm": "with",
+    "pass": false,
+    "ok": 0,
+    "total": 4,
+    "ms": 1649,
+    "outTokens": 300,
+    "err": ""
+  },
+  {
+    "name": "knapsack",
+    "arm": "with",
+    "pass": false,
+    "ok": 0,
+    "total": 10,
+    "ms": 920,
+    "outTokens": 119,
+    "err": ""
+  },
+  {
+    "name": "knapsack",
+    "arm": "without",
+    "pass": false,
+    "ok": 0,
+    "total": 10,
+    "ms": 1483,
+    "outTokens": 293,
+    "err": ""
+  },
+  {
+    "name": "kth",
+    "arm": "without",
+    "pass": true,
+    "ok": 7,
+    "total": 7,
+    "ms": 1443,
+    "outTokens": 174,
+    "err": ""
+  },
+  {
+    "name": "kth",
+    "arm": "with",
+    "pass": true,
+    "ok": 7,
+    "total": 7,
+    "ms": 1146,
+    "outTokens": 174,
+    "err": ""
+  },
+  {
+    "name": "lcs_length",
+    "arm": "with",
+    "pass": true,
+    "ok": 9,
+    "total": 9,
+    "ms": 1252,
+    "outTokens": 181,
+    "err": ""
+  },
+  {
+    "name": "lcs_length",
+    "arm": "without",
+    "pass": true,
+    "ok": 9,
+    "total": 9,
+    "ms": 1242,
+    "outTokens": 156,
+    "err": ""
+  },
+  {
+    "name": "levenshtein",
+    "arm": "without",
+    "pass": false,
+    "ok": 0,
+    "total": 7,
+    "ms": 1150,
+    "outTokens": 240,
+    "err": ""
+  },
+  {
+    "name": "levenshtein",
+    "arm": "with",
+    "pass": false,
+    "ok": 0,
+    "total": 7,
+    "ms": 1436,
+    "outTokens": 242,
+    "err": ""
+  },
+  {
+    "name": "lis",
+    "arm": "with",
+    "pass": true,
+    "ok": 12,
+    "total": 12,
+    "ms": 1282,
+    "outTokens": 195,
+    "err": ""
+  },
+  {
+    "name": "lis",
+    "arm": "without",
+    "pass": true,
+    "ok": 12,
+    "total": 12,
+    "ms": 1521,
+    "outTokens": 199,
+    "err": ""
+  },
+  {
+    "name": "longest_common_subsequence",
+    "arm": "without",
+    "pass": true,
+    "ok": 10,
+    "total": 10,
+    "ms": 1445,
+    "outTokens": 220,
+    "err": ""
+  },
+  {
+    "name": "longest_common_subsequence",
+    "arm": "with",
+    "pass": true,
+    "ok": 10,
+    "total": 10,
+    "ms": 1510,
+    "outTokens": 216,
+    "err": ""
+  },
+  {
+    "name": "max_sublist_sum",
+    "arm": "with",
+    "pass": true,
+    "ok": 6,
+    "total": 6,
+    "ms": 1444,
+    "outTokens": 177,
+    "err": ""
+  },
+  {
+    "name": "max_sublist_sum",
+    "arm": "without",
+    "pass": false,
+    "ok": 5,
+    "total": 6,
+    "ms": 1444,
+    "outTokens": 208,
+    "err": ""
+  },
+  {
+    "name": "mergesort",
+    "arm": "without",
+    "pass": true,
+    "ok": 14,
+    "total": 14,
+    "ms": 1113,
+    "outTokens": 177,
+    "err": ""
+  },
+  {
+    "name": "mergesort",
+    "arm": "with",
+    "pass": true,
+    "ok": 14,
+    "total": 14,
+    "ms": 1438,
+    "outTokens": 181,
+    "err": ""
+  },
+  {
+    "name": "next_palindrome",
+    "arm": "with",
+    "pass": true,
+    "ok": 5,
+    "total": 5,
+    "ms": 1445,
+    "outTokens": 197,
+    "err": ""
+  },
+  {
+    "name": "next_palindrome",
+    "arm": "without",
+    "pass": true,
+    "ok": 5,
+    "total": 5,
+    "ms": 1757,
+    "outTokens": 317,
+    "err": ""
+  },
+  {
+    "name": "next_permutation",
+    "arm": "without",
+    "pass": true,
+    "ok": 8,
+    "total": 8,
+    "ms": 1279,
+    "outTokens": 205,
+    "err": ""
+  },
+  {
+    "name": "next_permutation",
+    "arm": "with",
+    "pass": true,
+    "ok": 8,
+    "total": 8,
+    "ms": 1504,
+    "outTokens": 201,
+    "err": ""
+  },
+  {
+    "name": "pascal",
+    "arm": "with",
+    "pass": true,
+    "ok": 5,
+    "total": 5,
+    "ms": 1545,
+    "outTokens": 194,
+    "err": ""
+  },
+  {
+    "name": "pascal",
+    "arm": "without",
+    "pass": true,
+    "ok": 5,
+    "total": 5,
+    "ms": 1591,
+    "outTokens": 205,
+    "err": ""
+  },
+  {
+    "name": "possible_change",
+    "arm": "without",
+    "pass": true,
+    "ok": 10,
+    "total": 10,
+    "ms": 1275,
+    "outTokens": 289,
+    "err": ""
+  },
+  {
+    "name": "possible_change",
+    "arm": "with",
+    "pass": true,
+    "ok": 10,
+    "total": 10,
+    "ms": 1442,
+    "outTokens": 289,
+    "err": ""
+  },
+  {
+    "name": "powerset",
+    "arm": "with",
+    "pass": true,
+    "ok": 5,
+    "total": 5,
+    "ms": 1116,
+    "outTokens": 183,
+    "err": ""
+  },
+  {
+    "name": "powerset",
+    "arm": "without",
+    "pass": true,
+    "ok": 5,
+    "total": 5,
+    "ms": 1000,
+    "outTokens": 183,
+    "err": ""
+  },
+  {
+    "name": "quicksort",
+    "arm": "without",
+    "pass": true,
+    "ok": 13,
+    "total": 13,
+    "ms": 947,
+    "outTokens": 99,
+    "err": ""
+  },
+  {
+    "name": "quicksort",
+    "arm": "with",
+    "pass": true,
+    "ok": 13,
+    "total": 13,
+    "ms": 1251,
+    "outTokens": 118,
+    "err": ""
+  },
+  {
+    "name": "rpn_eval",
+    "arm": "with",
+    "pass": true,
+    "ok": 6,
+    "total": 6,
+    "ms": 922,
+    "outTokens": 138,
+    "err": ""
+  },
+  {
+    "name": "rpn_eval",
+    "arm": "without",
+    "pass": false,
+    "ok": 0,
+    "total": 6,
+    "ms": 1444,
+    "outTokens": 237,
+    "err": ""
+  },
+  {
+    "name": "shunting_yard",
+    "arm": "without",
+    "pass": true,
+    "ok": 6,
+    "total": 6,
+    "ms": 1774,
+    "outTokens": 400,
+    "err": ""
+  },
+  {
+    "name": "shunting_yard",
+    "arm": "with",
+    "pass": true,
+    "ok": 6,
+    "total": 6,
+    "ms": 1520,
+    "outTokens": 334,
+    "err": ""
+  },
+  {
+    "name": "sieve",
+    "arm": "with",
+    "pass": true,
+    "ok": 6,
+    "total": 6,
+    "ms": 1056,
+    "outTokens": 89,
+    "err": ""
+  },
+  {
+    "name": "sieve",
+    "arm": "without",
+    "pass": true,
+    "ok": 6,
+    "total": 6,
+    "ms": 805,
+    "outTokens": 86,
+    "err": ""
+  },
+  {
+    "name": "sqrt",
+    "arm": "without",
+    "pass": false,
+    "ok": 5,
+    "total": 7,
+    "ms": 957,
+    "outTokens": 134,
+    "err": ""
+  },
+  {
+    "name": "sqrt",
+    "arm": "with",
+    "pass": false,
+    "ok": 5,
+    "total": 7,
+    "ms": 800,
+    "outTokens": 45,
+    "err": ""
+  },
+  {
+    "name": "subsequences",
+    "arm": "with",
+    "pass": false,
+    "ok": 4,
+    "total": 12,
+    "ms": 1119,
+    "outTokens": 172,
+    "err": ""
+  },
+  {
+    "name": "subsequences",
+    "arm": "without",
+    "pass": false,
+    "ok": 4,
+    "total": 12,
+    "ms": 1437,
+    "outTokens": 175,
+    "err": ""
+  },
+  {
+    "name": "to_base",
+    "arm": "without",
+    "pass": true,
+    "ok": 10,
+    "total": 10,
+    "ms": 1280,
+    "outTokens": 148,
+    "err": ""
+  },
+  {
+    "name": "to_base",
+    "arm": "with",
+    "pass": true,
+    "ok": 10,
+    "total": 10,
+    "ms": 1206,
+    "outTokens": 144,
+    "err": ""
+  },
+  {
+    "name": "wrap",
+    "arm": "with",
+    "pass": false,
+    "ok": 0,
+    "total": 5,
+    "ms": 1034,
+    "outTokens": 87,
+    "err": ""
+  },
+  {
+    "name": "wrap",
+    "arm": "without",
+    "pass": true,
+    "ok": 5,
+    "total": 5,
+    "ms": 1447,
+    "outTokens": 228,
+    "err": ""
+  }
+]

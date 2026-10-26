@@ -1,0 +1,2954 @@
+[
+  {
+    "task_id": "Python/2",
+    "arm": "with",
+    "pass": true,
+    "ms": 1325,
+    "outTokens": 171,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/0",
+    "arm": "with",
+    "pass": true,
+    "ms": 2129,
+    "outTokens": 473,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/1",
+    "arm": "without",
+    "pass": true,
+    "ms": 2072,
+    "outTokens": 355,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/2",
+    "arm": "without",
+    "pass": true,
+    "ms": 1110,
+    "outTokens": 171,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/1",
+    "arm": "with",
+    "pass": true,
+    "ms": 1642,
+    "outTokens": 351,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/0",
+    "arm": "without",
+    "pass": true,
+    "ms": 1800,
+    "outTokens": 484,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/3",
+    "arm": "without",
+    "pass": true,
+    "ms": 1500,
+    "outTokens": 309,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/4",
+    "arm": "with",
+    "pass": true,
+    "ms": 1495,
+    "outTokens": 290,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/5",
+    "arm": "without",
+    "pass": true,
+    "ms": 1376,
+    "outTokens": 267,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/3",
+    "arm": "with",
+    "pass": true,
+    "ms": 1392,
+    "outTokens": 305,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/5",
+    "arm": "with",
+    "pass": true,
+    "ms": 942,
+    "outTokens": 132,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/4",
+    "arm": "without",
+    "pass": true,
+    "ms": 1759,
+    "outTokens": 293,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/6",
+    "arm": "with",
+    "pass": true,
+    "ms": 1637,
+    "outTokens": 301,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/7",
+    "arm": "without",
+    "pass": true,
+    "ms": 1384,
+    "outTokens": 257,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/8",
+    "arm": "with",
+    "pass": true,
+    "ms": 1431,
+    "outTokens": 250,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/6",
+    "arm": "without",
+    "pass": true,
+    "ms": 1909,
+    "outTokens": 296,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/7",
+    "arm": "with",
+    "pass": true,
+    "ms": 1345,
+    "outTokens": 257,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/8",
+    "arm": "without",
+    "pass": true,
+    "ms": 1442,
+    "outTokens": 250,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/9",
+    "arm": "without",
+    "pass": true,
+    "ms": 1440,
+    "outTokens": 253,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/10",
+    "arm": "with",
+    "pass": false,
+    "ms": 1600,
+    "outTokens": 282,
+    "extracted": true,
+    "err": "              ^^^^^^^^^^^^^ | NameError: name 'is_palindrome' is not defined. Did you mean: 'make_palindrome'? | "
+  },
+  {
+    "task_id": "Python/11",
+    "arm": "without",
+    "pass": true,
+    "ms": 957,
+    "outTokens": 118,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/9",
+    "arm": "with",
+    "pass": true,
+    "ms": 1110,
+    "outTokens": 150,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/11",
+    "arm": "with",
+    "pass": true,
+    "ms": 773,
+    "outTokens": 118,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/10",
+    "arm": "without",
+    "pass": false,
+    "ms": 1326,
+    "outTokens": 198,
+    "extracted": true,
+    "err": "              ^^^^^^^^^^^^^ | NameError: name 'is_palindrome' is not defined. Did you mean: 'make_palindrome'? | "
+  },
+  {
+    "task_id": "Python/13",
+    "arm": "without",
+    "pass": true,
+    "ms": 1150,
+    "outTokens": 171,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/12",
+    "arm": "with",
+    "pass": true,
+    "ms": 1492,
+    "outTokens": 208,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/14",
+    "arm": "with",
+    "pass": true,
+    "ms": 1187,
+    "outTokens": 153,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/13",
+    "arm": "with",
+    "pass": true,
+    "ms": 1430,
+    "outTokens": 175,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/12",
+    "arm": "without",
+    "pass": true,
+    "ms": 1242,
+    "outTokens": 208,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/14",
+    "arm": "without",
+    "pass": true,
+    "ms": 1167,
+    "outTokens": 157,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/16",
+    "arm": "with",
+    "pass": true,
+    "ms": 789,
+    "outTokens": 73,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/17",
+    "arm": "without",
+    "pass": true,
+    "ms": 1185,
+    "outTokens": 209,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/15",
+    "arm": "without",
+    "pass": true,
+    "ms": 1215,
+    "outTokens": 158,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/16",
+    "arm": "without",
+    "pass": true,
+    "ms": 1275,
+    "outTokens": 179,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/15",
+    "arm": "with",
+    "pass": true,
+    "ms": 1030,
+    "outTokens": 163,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/17",
+    "arm": "with",
+    "pass": true,
+    "ms": 1678,
+    "outTokens": 373,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/19",
+    "arm": "without",
+    "pass": true,
+    "ms": 1310,
+    "outTokens": 303,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/18",
+    "arm": "with",
+    "pass": true,
+    "ms": 1508,
+    "outTokens": 243,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/20",
+    "arm": "with",
+    "pass": true,
+    "ms": 1918,
+    "outTokens": 493,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/18",
+    "arm": "without",
+    "pass": true,
+    "ms": 1376,
+    "outTokens": 227,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/19",
+    "arm": "with",
+    "pass": true,
+    "ms": 1590,
+    "outTokens": 298,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/20",
+    "arm": "without",
+    "pass": true,
+    "ms": 1432,
+    "outTokens": 252,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/22",
+    "arm": "with",
+    "pass": true,
+    "ms": 1440,
+    "outTokens": 202,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/21",
+    "arm": "without",
+    "pass": true,
+    "ms": 1635,
+    "outTokens": 396,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/23",
+    "arm": "without",
+    "pass": true,
+    "ms": 998,
+    "outTokens": 83,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/22",
+    "arm": "without",
+    "pass": true,
+    "ms": 1396,
+    "outTokens": 202,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/21",
+    "arm": "with",
+    "pass": true,
+    "ms": 1660,
+    "outTokens": 392,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/23",
+    "arm": "with",
+    "pass": true,
+    "ms": 1131,
+    "outTokens": 82,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/24",
+    "arm": "with",
+    "pass": true,
+    "ms": 1040,
+    "outTokens": 146,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/24",
+    "arm": "without",
+    "pass": true,
+    "ms": 1044,
+    "outTokens": 142,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/26",
+    "arm": "with",
+    "pass": true,
+    "ms": 1905,
+    "outTokens": 214,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/25",
+    "arm": "without",
+    "pass": true,
+    "ms": 2147,
+    "outTokens": 388,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/27",
+    "arm": "without",
+    "pass": true,
+    "ms": 1269,
+    "outTokens": 119,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/26",
+    "arm": "without",
+    "pass": true,
+    "ms": 1396,
+    "outTokens": 204,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/25",
+    "arm": "with",
+    "pass": true,
+    "ms": 1419,
+    "outTokens": 183,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/27",
+    "arm": "with",
+    "pass": true,
+    "ms": 1278,
+    "outTokens": 118,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/28",
+    "arm": "with",
+    "pass": true,
+    "ms": 1056,
+    "outTokens": 68,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/29",
+    "arm": "without",
+    "pass": true,
+    "ms": 1228,
+    "outTokens": 164,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/28",
+    "arm": "without",
+    "pass": true,
+    "ms": 1182,
+    "outTokens": 131,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/30",
+    "arm": "with",
+    "pass": true,
+    "ms": 1477,
+    "outTokens": 254,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/29",
+    "arm": "with",
+    "pass": true,
+    "ms": 1323,
+    "outTokens": 164,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/30",
+    "arm": "without",
+    "pass": true,
+    "ms": 1409,
+    "outTokens": 253,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/31",
+    "arm": "without",
+    "pass": true,
+    "ms": 1609,
+    "outTokens": 296,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/31",
+    "arm": "with",
+    "pass": true,
+    "ms": 1588,
+    "outTokens": 291,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/32",
+    "arm": "with",
+    "pass": false,
+    "ms": 3361,
+    "outTokens": 629,
+    "extracted": true,
+    "err": "          ^^^^ | NameError: name 'poly' is not defined | "
+  },
+  {
+    "task_id": "Python/33",
+    "arm": "without",
+    "pass": true,
+    "ms": 2472,
+    "outTokens": 634,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/34",
+    "arm": "with",
+    "pass": true,
+    "ms": 1201,
+    "outTokens": 132,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/32",
+    "arm": "without",
+    "pass": false,
+    "ms": 1312,
+    "outTokens": 162,
+    "extracted": true,
+    "err": "          ^^^^ | NameError: name 'poly' is not defined | "
+  },
+  {
+    "task_id": "Python/34",
+    "arm": "without",
+    "pass": true,
+    "ms": 1363,
+    "outTokens": 131,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/35",
+    "arm": "without",
+    "pass": true,
+    "ms": 1409,
+    "outTokens": 169,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/33",
+    "arm": "with",
+    "pass": true,
+    "ms": 2651,
+    "outTokens": 632,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/36",
+    "arm": "with",
+    "pass": false,
+    "ms": 1664,
+    "outTokens": 274,
+    "extracted": false,
+    "err": "    ^ | SyntaxError: invalid syntax | "
+  },
+  {
+    "task_id": "Python/35",
+    "arm": "with",
+    "pass": true,
+    "ms": 1601,
+    "outTokens": 169,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/37",
+    "arm": "without",
+    "pass": true,
+    "ms": 1804,
+    "outTokens": 379,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/36",
+    "arm": "without",
+    "pass": true,
+    "ms": 1519,
+    "outTokens": 269,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/38",
+    "arm": "with",
+    "pass": false,
+    "ms": 1592,
+    "outTokens": 229,
+    "extracted": true,
+    "err": "                  ^^^^^^^^^^^^^ | NameError: name 'encode_cyclic' is not defined. Did you mean: 'decode_cyclic'? | "
+  },
+  {
+    "task_id": "Python/39",
+    "arm": "without",
+    "pass": true,
+    "ms": 1467,
+    "outTokens": 225,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/37",
+    "arm": "with",
+    "pass": true,
+    "ms": 2086,
+    "outTokens": 379,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/38",
+    "arm": "without",
+    "pass": false,
+    "ms": 1373,
+    "outTokens": 229,
+    "extracted": true,
+    "err": "                  ^^^^^^^^^^^^^ | NameError: name 'encode_cyclic' is not defined. Did you mean: 'decode_cyclic'? | "
+  },
+  {
+    "task_id": "Python/39",
+    "arm": "with",
+    "pass": true,
+    "ms": 1509,
+    "outTokens": 218,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/41",
+    "arm": "without",
+    "pass": true,
+    "ms": 1199,
+    "outTokens": 158,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/40",
+    "arm": "with",
+    "pass": true,
+    "ms": 2008,
+    "outTokens": 440,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/42",
+    "arm": "with",
+    "pass": true,
+    "ms": 1496,
+    "outTokens": 225,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/41",
+    "arm": "with",
+    "pass": true,
+    "ms": 1379,
+    "outTokens": 248,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/40",
+    "arm": "without",
+    "pass": true,
+    "ms": 2083,
+    "outTokens": 434,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/42",
+    "arm": "without",
+    "pass": true,
+    "ms": 1407,
+    "outTokens": 226,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/43",
+    "arm": "without",
+    "pass": true,
+    "ms": 1963,
+    "outTokens": 411,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/45",
+    "arm": "without",
+    "pass": true,
+    "ms": 1161,
+    "outTokens": 53,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/44",
+    "arm": "with",
+    "pass": true,
+    "ms": 1644,
+    "outTokens": 242,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/43",
+    "arm": "with",
+    "pass": true,
+    "ms": 1855,
+    "outTokens": 453,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/45",
+    "arm": "with",
+    "pass": true,
+    "ms": 1659,
+    "outTokens": 110,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/44",
+    "arm": "without",
+    "pass": true,
+    "ms": 1352,
+    "outTokens": 242,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/48",
+    "arm": "with",
+    "pass": true,
+    "ms": 1162,
+    "outTokens": 211,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/47",
+    "arm": "without",
+    "pass": true,
+    "ms": 1430,
+    "outTokens": 239,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/46",
+    "arm": "with",
+    "pass": true,
+    "ms": 1790,
+    "outTokens": 291,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/48",
+    "arm": "without",
+    "pass": true,
+    "ms": 1595,
+    "outTokens": 207,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/47",
+    "arm": "with",
+    "pass": true,
+    "ms": 1456,
+    "outTokens": 241,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/46",
+    "arm": "without",
+    "pass": true,
+    "ms": 1627,
+    "outTokens": 291,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/49",
+    "arm": "without",
+    "pass": true,
+    "ms": 974,
+    "outTokens": 121,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/50",
+    "arm": "with",
+    "pass": false,
+    "ms": 1353,
+    "outTokens": 122,
+    "extracted": true,
+    "err": "                  ^^^^^^^^^^^^ | NameError: name 'encode_shift' is not defined. Did you mean: 'decode_shift'? | "
+  },
+  {
+    "task_id": "Python/51",
+    "arm": "without",
+    "pass": true,
+    "ms": 2007,
+    "outTokens": 260,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/49",
+    "arm": "with",
+    "pass": true,
+    "ms": 1574,
+    "outTokens": 212,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/50",
+    "arm": "without",
+    "pass": false,
+    "ms": 1111,
+    "outTokens": 219,
+    "extracted": true,
+    "err": "                  ^^^^^^^^^^^^ | NameError: name 'encode_shift' is not defined. Did you mean: 'decode_shift'? | "
+  },
+  {
+    "task_id": "Python/51",
+    "arm": "with",
+    "pass": true,
+    "ms": 1278,
+    "outTokens": 260,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/53",
+    "arm": "without",
+    "pass": true,
+    "ms": 1277,
+    "outTokens": 170,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/52",
+    "arm": "with",
+    "pass": true,
+    "ms": 1374,
+    "outTokens": 231,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/53",
+    "arm": "with",
+    "pass": true,
+    "ms": 1276,
+    "outTokens": 173,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/52",
+    "arm": "without",
+    "pass": true,
+    "ms": 1284,
+    "outTokens": 231,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/54",
+    "arm": "with",
+    "pass": true,
+    "ms": 1516,
+    "outTokens": 305,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/55",
+    "arm": "without",
+    "pass": true,
+    "ms": 1253,
+    "outTokens": 157,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/54",
+    "arm": "without",
+    "pass": true,
+    "ms": 1744,
+    "outTokens": 305,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/56",
+    "arm": "with",
+    "pass": true,
+    "ms": 2163,
+    "outTokens": 313,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/55",
+    "arm": "with",
+    "pass": true,
+    "ms": 1466,
+    "outTokens": 145,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/57",
+    "arm": "without",
+    "pass": true,
+    "ms": 1595,
+    "outTokens": 281,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/56",
+    "arm": "without",
+    "pass": true,
+    "ms": 1732,
+    "outTokens": 313,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/58",
+    "arm": "with",
+    "pass": true,
+    "ms": 1597,
+    "outTokens": 294,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/59",
+    "arm": "without",
+    "pass": true,
+    "ms": 1145,
+    "outTokens": 228,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/57",
+    "arm": "with",
+    "pass": true,
+    "ms": 1631,
+    "outTokens": 281,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/58",
+    "arm": "without",
+    "pass": true,
+    "ms": 1495,
+    "outTokens": 294,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/60",
+    "arm": "with",
+    "pass": true,
+    "ms": 1024,
+    "outTokens": 167,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/59",
+    "arm": "with",
+    "pass": true,
+    "ms": 1333,
+    "outTokens": 232,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/60",
+    "arm": "without",
+    "pass": false,
+    "ms": 1060,
+    "outTokens": 176,
+    "extracted": false,
+    "err": "    ^ | SyntaxError: invalid syntax | "
+  },
+  {
+    "task_id": "Python/61",
+    "arm": "without",
+    "pass": true,
+    "ms": 1675,
+    "outTokens": 303,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/62",
+    "arm": "with",
+    "pass": true,
+    "ms": 1384,
+    "outTokens": 245,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/63",
+    "arm": "without",
+    "pass": true,
+    "ms": 1524,
+    "outTokens": 317,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/62",
+    "arm": "without",
+    "pass": true,
+    "ms": 1451,
+    "outTokens": 242,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/61",
+    "arm": "with",
+    "pass": true,
+    "ms": 1853,
+    "outTokens": 307,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/63",
+    "arm": "with",
+    "pass": true,
+    "ms": 1645,
+    "outTokens": 314,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/65",
+    "arm": "without",
+    "pass": true,
+    "ms": 1630,
+    "outTokens": 278,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/64",
+    "arm": "with",
+    "pass": true,
+    "ms": 1705,
+    "outTokens": 442,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/66",
+    "arm": "with",
+    "pass": true,
+    "ms": 1164,
+    "outTokens": 127,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/65",
+    "arm": "with",
+    "pass": true,
+    "ms": 1224,
+    "outTokens": 131,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/66",
+    "arm": "without",
+    "pass": true,
+    "ms": 1132,
+    "outTokens": 127,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/67",
+    "arm": "without",
+    "pass": true,
+    "ms": 829,
+    "outTokens": 41,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/64",
+    "arm": "without",
+    "pass": false,
+    "ms": 2364,
+    "outTokens": 561,
+    "extracted": false,
+    "err": "    ^ | SyntaxError: invalid syntax | "
+  },
+  {
+    "task_id": "Python/68",
+    "arm": "with",
+    "pass": true,
+    "ms": 1790,
+    "outTokens": 363,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/67",
+    "arm": "with",
+    "pass": true,
+    "ms": 1490,
+    "outTokens": 243,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/68",
+    "arm": "without",
+    "pass": true,
+    "ms": 1777,
+    "outTokens": 387,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/70",
+    "arm": "with",
+    "pass": true,
+    "ms": 2417,
+    "outTokens": 495,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/71",
+    "arm": "without",
+    "pass": true,
+    "ms": 1140,
+    "outTokens": 196,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/69",
+    "arm": "without",
+    "pass": true,
+    "ms": 4676,
+    "outTokens": 1387,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/71",
+    "arm": "with",
+    "pass": true,
+    "ms": 1306,
+    "outTokens": 196,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/70",
+    "arm": "without",
+    "pass": true,
+    "ms": 2104,
+    "outTokens": 495,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/72",
+    "arm": "with",
+    "pass": true,
+    "ms": 1262,
+    "outTokens": 278,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/73",
+    "arm": "without",
+    "pass": true,
+    "ms": 1170,
+    "outTokens": 192,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/72",
+    "arm": "without",
+    "pass": true,
+    "ms": 1724,
+    "outTokens": 427,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/73",
+    "arm": "with",
+    "pass": true,
+    "ms": 1787,
+    "outTokens": 391,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/69",
+    "arm": "with",
+    "pass": true,
+    "ms": 4204,
+    "outTokens": 1387,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/75",
+    "arm": "without",
+    "pass": false,
+    "ms": 1007,
+    "outTokens": 200,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/74",
+    "arm": "with",
+    "pass": true,
+    "ms": 2109,
+    "outTokens": 519,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/75",
+    "arm": "with",
+    "pass": true,
+    "ms": 1426,
+    "outTokens": 300,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/76",
+    "arm": "with",
+    "pass": true,
+    "ms": 2670,
+    "outTokens": 740,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/74",
+    "arm": "without",
+    "pass": true,
+    "ms": 1948,
+    "outTokens": 503,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/77",
+    "arm": "without",
+    "pass": true,
+    "ms": 1650,
+    "outTokens": 409,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/76",
+    "arm": "without",
+    "pass": true,
+    "ms": 2522,
+    "outTokens": 720,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/77",
+    "arm": "with",
+    "pass": true,
+    "ms": 2049,
+    "outTokens": 421,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/78",
+    "arm": "with",
+    "pass": true,
+    "ms": 3167,
+    "outTokens": 670,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/79",
+    "arm": "without",
+    "pass": true,
+    "ms": 1648,
+    "outTokens": 289,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/80",
+    "arm": "with",
+    "pass": true,
+    "ms": 2238,
+    "outTokens": 316,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/79",
+    "arm": "with",
+    "pass": true,
+    "ms": 1681,
+    "outTokens": 293,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/78",
+    "arm": "without",
+    "pass": true,
+    "ms": 2282,
+    "outTokens": 602,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/80",
+    "arm": "without",
+    "pass": true,
+    "ms": 1426,
+    "outTokens": 172,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/83",
+    "arm": "without",
+    "pass": true,
+    "ms": 1441,
+    "outTokens": 191,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/81",
+    "arm": "without",
+    "pass": true,
+    "ms": 2642,
+    "outTokens": 712,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/82",
+    "arm": "with",
+    "pass": true,
+    "ms": 2242,
+    "outTokens": 332,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/83",
+    "arm": "with",
+    "pass": false,
+    "ms": 1281,
+    "outTokens": 75,
+    "extracted": true,
+    "err": "           ^^^^^^^^^^^^^^^^^^^^^^^^ | AssertionError | "
+  },
+  {
+    "task_id": "Python/82",
+    "arm": "without",
+    "pass": true,
+    "ms": 1146,
+    "outTokens": 129,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/81",
+    "arm": "with",
+    "pass": true,
+    "ms": 2246,
+    "outTokens": 525,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/85",
+    "arm": "without",
+    "pass": true,
+    "ms": 1119,
+    "outTokens": 186,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/84",
+    "arm": "with",
+    "pass": true,
+    "ms": 1557,
+    "outTokens": 163,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/86",
+    "arm": "with",
+    "pass": true,
+    "ms": 1093,
+    "outTokens": 147,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/85",
+    "arm": "with",
+    "pass": true,
+    "ms": 1095,
+    "outTokens": 79,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/84",
+    "arm": "without",
+    "pass": true,
+    "ms": 1312,
+    "outTokens": 211,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/87",
+    "arm": "without",
+    "pass": true,
+    "ms": 1390,
+    "outTokens": 183,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/86",
+    "arm": "without",
+    "pass": true,
+    "ms": 1574,
+    "outTokens": 308,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/88",
+    "arm": "with",
+    "pass": true,
+    "ms": 2075,
+    "outTokens": 524,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/87",
+    "arm": "with",
+    "pass": true,
+    "ms": 1757,
+    "outTokens": 307,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/89",
+    "arm": "without",
+    "pass": true,
+    "ms": 1888,
+    "outTokens": 357,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/88",
+    "arm": "without",
+    "pass": true,
+    "ms": 2235,
+    "outTokens": 515,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/90",
+    "arm": "with",
+    "pass": true,
+    "ms": 1842,
+    "outTokens": 359,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/89",
+    "arm": "with",
+    "pass": true,
+    "ms": 2372,
+    "outTokens": 480,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/90",
+    "arm": "without",
+    "pass": true,
+    "ms": 994,
+    "outTokens": 146,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/91",
+    "arm": "without",
+    "pass": false,
+    "ms": 1491,
+    "outTokens": 345,
+    "extracted": true,
+    "err": "                ^^ | NameError: name 're' is not defined. Did you forget to import 're'? | "
+  },
+  {
+    "task_id": "Python/92",
+    "arm": "with",
+    "pass": true,
+    "ms": 1521,
+    "outTokens": 183,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/93",
+    "arm": "without",
+    "pass": false,
+    "ms": 2186,
+    "outTokens": 393,
+    "extracted": true,
+    "err": "           ^^^^^^^^^^^^^^^^^^^^^^^^ | AssertionError: This prints if this assert fails 1 (good for debugging!) | "
+  },
+  {
+    "task_id": "Python/92",
+    "arm": "without",
+    "pass": true,
+    "ms": 876,
+    "outTokens": 63,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/91",
+    "arm": "with",
+    "pass": true,
+    "ms": 1874,
+    "outTokens": 329,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/94",
+    "arm": "with",
+    "pass": true,
+    "ms": 2158,
+    "outTokens": 398,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/93",
+    "arm": "with",
+    "pass": false,
+    "ms": 2294,
+    "outTokens": 380,
+    "extracted": true,
+    "err": "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | AssertionError: This prints if this assert fails 2 (good for debugging!) | "
+  },
+  {
+    "task_id": "Python/95",
+    "arm": "without",
+    "pass": true,
+    "ms": 2467,
+    "outTokens": 625,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/96",
+    "arm": "with",
+    "pass": true,
+    "ms": 2466,
+    "outTokens": 481,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/94",
+    "arm": "without",
+    "pass": true,
+    "ms": 3364,
+    "outTokens": 860,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/96",
+    "arm": "without",
+    "pass": true,
+    "ms": 780,
+    "outTokens": 67,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/95",
+    "arm": "with",
+    "pass": true,
+    "ms": 3111,
+    "outTokens": 467,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/97",
+    "arm": "without",
+    "pass": true,
+    "ms": 1079,
+    "outTokens": 111,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/98",
+    "arm": "with",
+    "pass": true,
+    "ms": 1580,
+    "outTokens": 243,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/99",
+    "arm": "without",
+    "pass": true,
+    "ms": 1521,
+    "outTokens": 246,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/98",
+    "arm": "without",
+    "pass": true,
+    "ms": 1603,
+    "outTokens": 243,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/99",
+    "arm": "with",
+    "pass": true,
+    "ms": 1528,
+    "outTokens": 224,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/97",
+    "arm": "with",
+    "pass": true,
+    "ms": 3035,
+    "outTokens": 601,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/100",
+    "arm": "with",
+    "pass": true,
+    "ms": 1592,
+    "outTokens": 335,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/101",
+    "arm": "without",
+    "pass": true,
+    "ms": 2401,
+    "outTokens": 386,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/102",
+    "arm": "with",
+    "pass": true,
+    "ms": 1681,
+    "outTokens": 294,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/100",
+    "arm": "without",
+    "pass": true,
+    "ms": 1445,
+    "outTokens": 330,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/102",
+    "arm": "without",
+    "pass": true,
+    "ms": 1549,
+    "outTokens": 283,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/101",
+    "arm": "with",
+    "pass": true,
+    "ms": 2006,
+    "outTokens": 387,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/103",
+    "arm": "without",
+    "pass": true,
+    "ms": 1751,
+    "outTokens": 436,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/104",
+    "arm": "with",
+    "pass": true,
+    "ms": 1277,
+    "outTokens": 151,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/105",
+    "arm": "without",
+    "pass": true,
+    "ms": 1139,
+    "outTokens": 173,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/104",
+    "arm": "without",
+    "pass": true,
+    "ms": 1277,
+    "outTokens": 155,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/103",
+    "arm": "with",
+    "pass": true,
+    "ms": 2042,
+    "outTokens": 456,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/105",
+    "arm": "with",
+    "pass": true,
+    "ms": 2119,
+    "outTokens": 395,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/106",
+    "arm": "with",
+    "pass": true,
+    "ms": 1186,
+    "outTokens": 214,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/107",
+    "arm": "without",
+    "pass": true,
+    "ms": 1795,
+    "outTokens": 312,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/108",
+    "arm": "with",
+    "pass": true,
+    "ms": 1214,
+    "outTokens": 216,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/106",
+    "arm": "without",
+    "pass": true,
+    "ms": 1524,
+    "outTokens": 295,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/107",
+    "arm": "with",
+    "pass": true,
+    "ms": 1592,
+    "outTokens": 316,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/108",
+    "arm": "without",
+    "pass": true,
+    "ms": 1972,
+    "outTokens": 391,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/109",
+    "arm": "without",
+    "pass": true,
+    "ms": 2075,
+    "outTokens": 378,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/110",
+    "arm": "with",
+    "pass": true,
+    "ms": 2090,
+    "outTokens": 491,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/110",
+    "arm": "without",
+    "pass": true,
+    "ms": 788,
+    "outTokens": 100,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/111",
+    "arm": "without",
+    "pass": true,
+    "ms": 2249,
+    "outTokens": 567,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/109",
+    "arm": "with",
+    "pass": true,
+    "ms": 2223,
+    "outTokens": 531,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/111",
+    "arm": "with",
+    "pass": true,
+    "ms": 1508,
+    "outTokens": 225,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/112",
+    "arm": "with",
+    "pass": false,
+    "ms": 1741,
+    "outTokens": 365,
+    "extracted": false,
+    "err": "    ^ | SyntaxError: invalid syntax | "
+  },
+  {
+    "task_id": "Python/113",
+    "arm": "without",
+    "pass": false,
+    "ms": 1314,
+    "outTokens": 258,
+    "extracted": true,
+    "err": "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | AssertionError: Test 1 | "
+  },
+  {
+    "task_id": "Python/113",
+    "arm": "with",
+    "pass": false,
+    "ms": 1410,
+    "outTokens": 258,
+    "extracted": true,
+    "err": "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | AssertionError: Test 1 | "
+  },
+  {
+    "task_id": "Python/114",
+    "arm": "with",
+    "pass": true,
+    "ms": 1887,
+    "outTokens": 485,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/112",
+    "arm": "without",
+    "pass": true,
+    "ms": 1878,
+    "outTokens": 357,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/115",
+    "arm": "without",
+    "pass": true,
+    "ms": 1766,
+    "outTokens": 338,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/114",
+    "arm": "without",
+    "pass": true,
+    "ms": 2055,
+    "outTokens": 459,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/116",
+    "arm": "with",
+    "pass": true,
+    "ms": 2114,
+    "outTokens": 533,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/117",
+    "arm": "without",
+    "pass": true,
+    "ms": 939,
+    "outTokens": 148,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/116",
+    "arm": "without",
+    "pass": true,
+    "ms": 668,
+    "outTokens": 28,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/115",
+    "arm": "with",
+    "pass": true,
+    "ms": 2073,
+    "outTokens": 343,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/117",
+    "arm": "with",
+    "pass": true,
+    "ms": 1913,
+    "outTokens": 256,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/118",
+    "arm": "with",
+    "pass": true,
+    "ms": 1914,
+    "outTokens": 453,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/119",
+    "arm": "without",
+    "pass": true,
+    "ms": 1470,
+    "outTokens": 270,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/119",
+    "arm": "with",
+    "pass": true,
+    "ms": 1732,
+    "outTokens": 289,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/118",
+    "arm": "without",
+    "pass": true,
+    "ms": 2157,
+    "outTokens": 488,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/120",
+    "arm": "with",
+    "pass": true,
+    "ms": 2555,
+    "outTokens": 600,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/122",
+    "arm": "with",
+    "pass": true,
+    "ms": 1213,
+    "outTokens": 144,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/121",
+    "arm": "without",
+    "pass": true,
+    "ms": 1526,
+    "outTokens": 275,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/120",
+    "arm": "without",
+    "pass": true,
+    "ms": 1757,
+    "outTokens": 239,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/122",
+    "arm": "without",
+    "pass": true,
+    "ms": 962,
+    "outTokens": 144,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/121",
+    "arm": "with",
+    "pass": true,
+    "ms": 1823,
+    "outTokens": 328,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/125",
+    "arm": "without",
+    "pass": true,
+    "ms": 638,
+    "outTokens": 64,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/123",
+    "arm": "without",
+    "pass": true,
+    "ms": 2234,
+    "outTokens": 449,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/124",
+    "arm": "with",
+    "pass": true,
+    "ms": 2688,
+    "outTokens": 664,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/125",
+    "arm": "with",
+    "pass": true,
+    "ms": 1838,
+    "outTokens": 325,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/123",
+    "arm": "with",
+    "pass": true,
+    "ms": 1544,
+    "outTokens": 296,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/124",
+    "arm": "without",
+    "pass": true,
+    "ms": 1760,
+    "outTokens": 440,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/127",
+    "arm": "without",
+    "pass": true,
+    "ms": 2453,
+    "outTokens": 550,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/126",
+    "arm": "with",
+    "pass": true,
+    "ms": 2896,
+    "outTokens": 757,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/128",
+    "arm": "with",
+    "pass": true,
+    "ms": 2051,
+    "outTokens": 431,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/128",
+    "arm": "without",
+    "pass": true,
+    "ms": 1301,
+    "outTokens": 175,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/127",
+    "arm": "with",
+    "pass": true,
+    "ms": 1916,
+    "outTokens": 372,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/126",
+    "arm": "without",
+    "pass": true,
+    "ms": 2545,
+    "outTokens": 745,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/129",
+    "arm": "without",
+    "pass": true,
+    "ms": 1457,
+    "outTokens": 210,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/131",
+    "arm": "without",
+    "pass": true,
+    "ms": 1039,
+    "outTokens": 251,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/130",
+    "arm": "with",
+    "pass": false,
+    "ms": 2090,
+    "outTokens": 513,
+    "extracted": true,
+    "err": "           ^^^^^^^^^^^^^^^^^^^^^^^^^^ | AssertionError | "
+  },
+  {
+    "task_id": "Python/131",
+    "arm": "with",
+    "pass": true,
+    "ms": 1430,
+    "outTokens": 247,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/130",
+    "arm": "without",
+    "pass": true,
+    "ms": 2869,
+    "outTokens": 791,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/129",
+    "arm": "with",
+    "pass": true,
+    "ms": 3879,
+    "outTokens": 1003,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/132",
+    "arm": "with",
+    "pass": true,
+    "ms": 2405,
+    "outTokens": 505,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/134",
+    "arm": "with",
+    "pass": true,
+    "ms": 2023,
+    "outTokens": 402,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/133",
+    "arm": "without",
+    "pass": true,
+    "ms": 2182,
+    "outTokens": 611,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/132",
+    "arm": "without",
+    "pass": true,
+    "ms": 2391,
+    "outTokens": 505,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/133",
+    "arm": "with",
+    "pass": true,
+    "ms": 1165,
+    "outTokens": 186,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/134",
+    "arm": "without",
+    "pass": true,
+    "ms": 1911,
+    "outTokens": 401,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/135",
+    "arm": "without",
+    "pass": true,
+    "ms": 1040,
+    "outTokens": 146,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/137",
+    "arm": "without",
+    "pass": true,
+    "ms": 1440,
+    "outTokens": 203,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/136",
+    "arm": "with",
+    "pass": true,
+    "ms": 2150,
+    "outTokens": 589,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/135",
+    "arm": "with",
+    "pass": true,
+    "ms": 1553,
+    "outTokens": 263,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/137",
+    "arm": "with",
+    "pass": true,
+    "ms": 1349,
+    "outTokens": 205,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/136",
+    "arm": "without",
+    "pass": true,
+    "ms": 1409,
+    "outTokens": 192,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/138",
+    "arm": "with",
+    "pass": true,
+    "ms": 1493,
+    "outTokens": 219,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/139",
+    "arm": "without",
+    "pass": true,
+    "ms": 1354,
+    "outTokens": 154,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/138",
+    "arm": "without",
+    "pass": true,
+    "ms": 1035,
+    "outTokens": 89,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/140",
+    "arm": "with",
+    "pass": true,
+    "ms": 2251,
+    "outTokens": 445,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/141",
+    "arm": "without",
+    "pass": true,
+    "ms": 1257,
+    "outTokens": 149,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/139",
+    "arm": "with",
+    "pass": true,
+    "ms": 1718,
+    "outTokens": 243,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/140",
+    "arm": "without",
+    "pass": true,
+    "ms": 2181,
+    "outTokens": 496,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/141",
+    "arm": "with",
+    "pass": true,
+    "ms": 1812,
+    "outTokens": 333,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/142",
+    "arm": "with",
+    "pass": true,
+    "ms": 2501,
+    "outTokens": 598,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/143",
+    "arm": "without",
+    "pass": true,
+    "ms": 1855,
+    "outTokens": 370,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/144",
+    "arm": "with",
+    "pass": true,
+    "ms": 2182,
+    "outTokens": 493,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/142",
+    "arm": "without",
+    "pass": true,
+    "ms": 2054,
+    "outTokens": 567,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/143",
+    "arm": "with",
+    "pass": true,
+    "ms": 2014,
+    "outTokens": 383,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/144",
+    "arm": "without",
+    "pass": true,
+    "ms": 1715,
+    "outTokens": 341,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/145",
+    "arm": "without",
+    "pass": false,
+    "ms": 1162,
+    "outTokens": 183,
+    "extracted": true,
+    "err": "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | AssertionError | "
+  },
+  {
+    "task_id": "Python/146",
+    "arm": "with",
+    "pass": true,
+    "ms": 1562,
+    "outTokens": 372,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/147",
+    "arm": "without",
+    "pass": true,
+    "ms": 1561,
+    "outTokens": 281,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/145",
+    "arm": "with",
+    "pass": false,
+    "ms": 1297,
+    "outTokens": 159,
+    "extracted": true,
+    "err": "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | AssertionError | "
+  },
+  {
+    "task_id": "Python/147",
+    "arm": "with",
+    "pass": true,
+    "ms": 1642,
+    "outTokens": 264,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/146",
+    "arm": "without",
+    "pass": true,
+    "ms": 1724,
+    "outTokens": 370,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/148",
+    "arm": "with",
+    "pass": true,
+    "ms": 2464,
+    "outTokens": 593,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/150",
+    "arm": "with",
+    "pass": true,
+    "ms": 1154,
+    "outTokens": 127,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/149",
+    "arm": "without",
+    "pass": true,
+    "ms": 1796,
+    "outTokens": 425,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/148",
+    "arm": "without",
+    "pass": true,
+    "ms": 1431,
+    "outTokens": 336,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/150",
+    "arm": "without",
+    "pass": true,
+    "ms": 1177,
+    "outTokens": 111,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/149",
+    "arm": "with",
+    "pass": true,
+    "ms": 918,
+    "outTokens": 42,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/151",
+    "arm": "without",
+    "pass": true,
+    "ms": 2236,
+    "outTokens": 477,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/153",
+    "arm": "without",
+    "pass": true,
+    "ms": 1951,
+    "outTokens": 400,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/152",
+    "arm": "with",
+    "pass": true,
+    "ms": 2444,
+    "outTokens": 600,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/151",
+    "arm": "with",
+    "pass": true,
+    "ms": 1885,
+    "outTokens": 478,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/153",
+    "arm": "with",
+    "pass": true,
+    "ms": 1793,
+    "outTokens": 365,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/152",
+    "arm": "without",
+    "pass": true,
+    "ms": 2609,
+    "outTokens": 600,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/155",
+    "arm": "without",
+    "pass": true,
+    "ms": 1889,
+    "outTokens": 295,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/154",
+    "arm": "with",
+    "pass": true,
+    "ms": 2251,
+    "outTokens": 485,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/156",
+    "arm": "with",
+    "pass": true,
+    "ms": 1922,
+    "outTokens": 502,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/155",
+    "arm": "with",
+    "pass": true,
+    "ms": 1595,
+    "outTokens": 295,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/154",
+    "arm": "without",
+    "pass": true,
+    "ms": 1577,
+    "outTokens": 339,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/156",
+    "arm": "without",
+    "pass": true,
+    "ms": 1279,
+    "outTokens": 241,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/157",
+    "arm": "without",
+    "pass": true,
+    "ms": 1916,
+    "outTokens": 424,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/159",
+    "arm": "without",
+    "pass": true,
+    "ms": 1373,
+    "outTokens": 38,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/158",
+    "arm": "with",
+    "pass": true,
+    "ms": 1973,
+    "outTokens": 402,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/157",
+    "arm": "with",
+    "pass": true,
+    "ms": 1603,
+    "outTokens": 154,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/158",
+    "arm": "without",
+    "pass": true,
+    "ms": 1946,
+    "outTokens": 455,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/159",
+    "arm": "with",
+    "pass": true,
+    "ms": 2238,
+    "outTokens": 501,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/160",
+    "arm": "with",
+    "pass": false,
+    "ms": 1753,
+    "outTokens": 309,
+    "extracted": true,
+    "err": "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | AssertionError | "
+  },
+  {
+    "task_id": "Python/161",
+    "arm": "without",
+    "pass": true,
+    "ms": 1112,
+    "outTokens": 131,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/162",
+    "arm": "with",
+    "pass": true,
+    "ms": 1659,
+    "outTokens": 252,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/160",
+    "arm": "without",
+    "pass": true,
+    "ms": 735,
+    "outTokens": 61,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/161",
+    "arm": "with",
+    "pass": true,
+    "ms": 1183,
+    "outTokens": 226,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/162",
+    "arm": "without",
+    "pass": true,
+    "ms": 958,
+    "outTokens": 105,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/163",
+    "arm": "without",
+    "pass": true,
+    "ms": 1180,
+    "outTokens": 155,
+    "extracted": true,
+    "err": ""
+  },
+  {
+    "task_id": "Python/163",
+    "arm": "with",
+    "pass": true,
+    "ms": 1300,
+    "outTokens": 151,
+    "extracted": true,
+    "err": ""
+  }
+]
