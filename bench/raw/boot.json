@@ -1,0 +1,114 @@
+[
+  {
+    "i": 0,
+    "arm": "enabled",
+    "readyMs": 1789,
+    "http": 401,
+    "rssKb": 236248,
+    "threads": 15
+  },
+  {
+    "i": 0,
+    "arm": "disabled",
+    "readyMs": 1816,
+    "http": 401,
+    "rssKb": 235640,
+    "threads": 15
+  },
+  {
+    "i": 1,
+    "arm": "disabled",
+    "readyMs": 1797,
+    "http": 401,
+    "rssKb": 234148,
+    "threads": 15
+  },
+  {
+    "i": 1,
+    "arm": "enabled",
+    "readyMs": 1818,
+    "http": 401,
+    "rssKb": 235816,
+    "threads": 15
+  },
+  {
+    "i": 2,
+    "arm": "enabled",
+    "readyMs": 1779,
+    "http": 401,
+    "rssKb": 239120,
+    "threads": 15
+  },
+  {
+    "i": 2,
+    "arm": "disabled",
+    "readyMs": 1819,
+    "http": 401,
+    "rssKb": 235068,
+    "threads": 15
+  },
+  {
+    "i": 3,
+    "arm": "disabled",
+    "readyMs": 1874,
+    "http": 401,
+    "rssKb": 233752,
+    "threads": 15
+  },
+  {
+    "i": 3,
+    "arm": "enabled",
+    "readyMs": 1783,
+    "http": 401,
+    "rssKb": 235552,
+    "threads": 15
+  },
+  {
+    "i": 4,
+    "arm": "enabled",
+    "readyMs": 1804,
+    "http": 401,
+    "rssKb": 238680,
+    "threads": 15
+  },
+  {
+    "i": 4,
+    "arm": "disabled",
+    "readyMs": 1824,
+    "http": 401,
+    "rssKb": 235768,
+    "threads": 15
+  },
+  {
+    "i": 5,
+    "arm": "disabled",
+    "readyMs": 1812,
+    "http": 401,
+    "rssKb": 235684,
+    "threads": 15
+  },
+  {
+    "i": 5,
+    "arm": "enabled",
+    "readyMs": 1807,
+    "http": 401,
+    "rssKb": 239104,
+    "threads": 15
+  },
+  {
+    "i": 6,
+    "arm": "enabled",
+    "readyMs": 1819,
+    "http": 401,
+    "rssKb": 239188,
+    "threads": 15
+  },
+  {
+    "i": 6,
+    "arm": "disabled",
+    "readyMs": 1817,
+    "http": 401,
+    "rssKb": 239420,
+    "threads": 15
+  }
+]

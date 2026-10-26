@@ -1,0 +1,15 @@
+{
+  "system": {
+    "with": 15591,
+    "without": 10573,
+    "bytesWith": 23359,
+    "bytesWithout": 10679
+  },
+  "snapshot": {
+    "with": 985,
+    "without": 473
+  },
+  "totalCharsWith": 16576,
+  "totalCharsWithout": 11046,
+  "totalDeltaChars": 5530
+}

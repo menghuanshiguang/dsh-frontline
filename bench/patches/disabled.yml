@@ -1,0 +1,3 @@
+# benchmark overlay: disable the frontline row exactly as the plugin documents
+- id: frontline
+  disabled: true
