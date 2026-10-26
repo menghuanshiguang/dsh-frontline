@@ -1,0 +1,7 @@
+context  identity:runtime     order=121    chars=   395 bytes=   661 cjk=108
+context  discipline:runtime   order=122    chars=   113 bytes=   299 cjk=79
+section  identity:head        order=901    chars=   480 bytes=  1114 cjk=273
+section  discipline:head      order=902    chars=   237 bytes=   573 cjk=146
+section  discipline:core      order=19999  chars=  2802 bytes=  7274 cjk=1916
+section  identity:core        order=20000  chars=  1491 bytes=  3711 cjk=949
+TOTAL entries=6 chars=5518 bytes=13632 cjk=3471

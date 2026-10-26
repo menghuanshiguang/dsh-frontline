@@ -1,0 +1,282 @@
+[
+  {
+    "i": 0,
+    "arm": "with",
+    "ms": 577,
+    "input": 202,
+    "cacheRead": 3584
+  },
+  {
+    "i": 0,
+    "arm": "without",
+    "ms": 149,
+    "input": 149,
+    "cacheRead": 512
+  },
+  {
+    "i": 1,
+    "arm": "without",
+    "ms": 164,
+    "input": 149,
+    "cacheRead": 512
+  },
+  {
+    "i": 1,
+    "arm": "with",
+    "ms": 195,
+    "input": 202,
+    "cacheRead": 3584
+  },
+  {
+    "i": 2,
+    "arm": "with",
+    "ms": 197,
+    "input": 202,
+    "cacheRead": 3584
+  },
+  {
+    "i": 2,
+    "arm": "without",
+    "ms": 173,
+    "input": 149,
+    "cacheRead": 512
+  },
+  {
+    "i": 3,
+    "arm": "without",
+    "ms": 153,
+    "input": 149,
+    "cacheRead": 512
+  },
+  {
+    "i": 3,
+    "arm": "with",
+    "ms": 212,
+    "input": 202,
+    "cacheRead": 3584
+  },
+  {
+    "i": 4,
+    "arm": "with",
+    "ms": 196,
+    "input": 202,
+    "cacheRead": 3584
+  },
+  {
+    "i": 4,
+    "arm": "without",
+    "ms": 114,
+    "input": 149,
+    "cacheRead": 512
+  },
+  {
+    "i": 5,
+    "arm": "without",
+    "ms": 148,
+    "input": 149,
+    "cacheRead": 512
+  },
+  {
+    "i": 5,
+    "arm": "with",
+    "ms": 159,
+    "input": 202,
+    "cacheRead": 3584
+  },
+  {
+    "i": 6,
+    "arm": "with",
+    "ms": 195,
+    "input": 202,
+    "cacheRead": 3584
+  },
+  {
+    "i": 6,
+    "arm": "without",
+    "ms": 141,
+    "input": 149,
+    "cacheRead": 512
+  },
+  {
+    "i": 7,
+    "arm": "without",
+    "ms": 175,
+    "input": 149,
+    "cacheRead": 512
+  },
+  {
+    "i": 7,
+    "arm": "with",
+    "ms": 231,
+    "input": 202,
+    "cacheRead": 3584
+  },
+  {
+    "i": 8,
+    "arm": "with",
+    "ms": 183,
+    "input": 202,
+    "cacheRead": 3584
+  },
+  {
+    "i": 8,
+    "arm": "without",
+    "ms": 617,
+    "input": 149,
+    "cacheRead": 512
+  },
+  {
+    "i": 9,
+    "arm": "without",
+    "ms": 383,
+    "input": 149,
+    "cacheRead": 512
+  },
+  {
+    "i": 9,
+    "arm": "with",
+    "ms": 207,
+    "input": 202,
+    "cacheRead": 3584
+  },
+  {
+    "i": 10,
+    "arm": "with",
+    "ms": 241,
+    "input": 202,
+    "cacheRead": 3584
+  },
+  {
+    "i": 10,
+    "arm": "without",
+    "ms": 128,
+    "input": 149,
+    "cacheRead": 512
+  },
+  {
+    "i": 11,
+    "arm": "without",
+    "ms": 143,
+    "input": 149,
+    "cacheRead": 512
+  },
+  {
+    "i": 11,
+    "arm": "with",
+    "ms": 199,
+    "input": 202,
+    "cacheRead": 3584
+  },
+  {
+    "i": 12,
+    "arm": "with",
+    "ms": 207,
+    "input": 202,
+    "cacheRead": 3584
+  },
+  {
+    "i": 12,
+    "arm": "without",
+    "ms": 118,
+    "input": 149,
+    "cacheRead": 512
+  },
+  {
+    "i": 13,
+    "arm": "without",
+    "ms": 136,
+    "input": 149,
+    "cacheRead": 512
+  },
+  {
+    "i": 13,
+    "arm": "with",
+    "ms": 156,
+    "input": 202,
+    "cacheRead": 3584
+  },
+  {
+    "i": 14,
+    "arm": "with",
+    "ms": 162,
+    "input": 202,
+    "cacheRead": 3584
+  },
+  {
+    "i": 14,
+    "arm": "without",
+    "ms": 123,
+    "input": 149,
+    "cacheRead": 512
+  },
+  {
+    "i": 15,
+    "arm": "without",
+    "ms": 131,
+    "input": 149,
+    "cacheRead": 512
+  },
+  {
+    "i": 15,
+    "arm": "with",
+    "ms": 195,
+    "input": 202,
+    "cacheRead": 3584
+  },
+  {
+    "i": 16,
+    "arm": "with",
+    "ms": 174,
+    "input": 202,
+    "cacheRead": 3584
+  },
+  {
+    "i": 16,
+    "arm": "without",
+    "ms": 428,
+    "input": 149,
+    "cacheRead": 512
+  },
+  {
+    "i": 17,
+    "arm": "without",
+    "ms": 137,
+    "input": 149,
+    "cacheRead": 512
+  },
+  {
+    "i": 17,
+    "arm": "with",
+    "ms": 182,
+    "input": 202,
+    "cacheRead": 3584
+  },
+  {
+    "i": 18,
+    "arm": "with",
+    "ms": 203,
+    "input": 202,
+    "cacheRead": 3584
+  },
+  {
+    "i": 18,
+    "arm": "without",
+    "ms": 167,
+    "input": 149,
+    "cacheRead": 512
+  },
+  {
+    "i": 19,
+    "arm": "without",
+    "ms": 131,
+    "input": 149,
+    "cacheRead": 512
+  },
+  {
+    "i": 19,
+    "arm": "with",
+    "ms": 435,
+    "input": 202,
+    "cacheRead": 3584
+  }
+]

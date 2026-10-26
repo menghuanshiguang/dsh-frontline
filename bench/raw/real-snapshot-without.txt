@@ -1,0 +1,5 @@
+Current runtime context. This snapshot supersedes earlier runtime-context snapshots.
+
+Current DSH file policy: workspace-write. Any available operation enforced by the DSH file sandbox may modify files under the session workspace: "/storage/emulated/0/MT2/dsh/test". Some platform temporary areas may also be writable.
+
+Approval policy: ask. Operations that require approval may ask through the configured answerers; without an available answerer, the request fails closed.

@@ -1,0 +1,70 @@
+{
+  "chars": {
+    "system": {
+      "with": 15591,
+      "without": 10573,
+      "bytesWith": 23359,
+      "bytesWithout": 10679
+    },
+    "snapshot": {
+      "with": 985,
+      "without": 473
+    },
+    "totalCharsWith": 16576,
+    "totalCharsWithout": 11046,
+    "totalDeltaChars": 5530
+  },
+  "tokens": {
+    "with": 5475,
+    "without": 2365,
+    "delta": 3110
+  },
+  "boot": {
+    "enabled": {
+      "n": 7,
+      "median": 1804,
+      "min": 1779,
+      "max": 1819
+    },
+    "disabled": {
+      "n": 7,
+      "median": 1817,
+      "min": 1797,
+      "max": 1874
+    }
+  },
+  "rss": {
+    "enabled": 238680,
+    "disabled": 235640
+  },
+  "latency": {
+    "cold": {
+      "with": {
+        "n": 20,
+        "median": 211,
+        "min": 168,
+        "max": 801
+      },
+      "without": {
+        "n": 20,
+        "median": 158,
+        "min": 122,
+        "max": 231
+      }
+    },
+    "warm": {
+      "with": {
+        "n": 20,
+        "median": 196.5,
+        "min": 156,
+        "max": 577
+      },
+      "without": {
+        "n": 20,
+        "median": 145.5,
+        "min": 114,
+        "max": 617
+      }
+    }
+  }
+}
