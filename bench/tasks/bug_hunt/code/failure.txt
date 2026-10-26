@@ -1,0 +1,84 @@
+test_add_item_defaults_are_isolated (test_inventory.InventoryTest.test_add_item_defaults_are_isolated) ... FAIL
+test_average_returns_fraction (test_inventory.InventoryTest.test_average_returns_fraction) ... FAIL
+test_page_keeps_last_item (test_inventory.InventoryTest.test_page_keeps_last_item) ... FAIL
+test_reset_does_not_mutate_input (test_inventory.InventoryTest.test_reset_does_not_mutate_input) ... FAIL
+test_retries_zero_is_kept (test_inventory.InventoryTest.test_retries_zero_is_kept) ... FAIL
+
+======================================================================
+FAIL: test_add_item_defaults_are_isolated (test_inventory.InventoryTest.test_add_item_defaults_are_isolated)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/storage/emulated/0/MT2/dsh/test/bench/tasks/bug_hunt/code/test_inventory.py", line 15, in test_add_item_defaults_are_isolated
+    self.assertEqual(add_item("b"), ["b"])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: ['a', 'b'] != ['b']
+
+First differing element 0:
+'a'
+'b'
+
+First list contains 1 additional elements.
+First extra element 1:
+'b'
+
+- ['a', 'b']
++ ['b']
+
+======================================================================
+FAIL: test_average_returns_fraction (test_inventory.InventoryTest.test_average_returns_fraction)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/storage/emulated/0/MT2/dsh/test/bench/tasks/bug_hunt/code/test_inventory.py", line 8, in test_average_returns_fraction
+    self.assertEqual(average([1, 2]), 1.5)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 1.5
+
+======================================================================
+FAIL: test_page_keeps_last_item (test_inventory.InventoryTest.test_page_keeps_last_item)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/storage/emulated/0/MT2/dsh/test/bench/tasks/bug_hunt/code/test_inventory.py", line 11, in test_page_keeps_last_item
+    self.assertEqual(page([0, 1, 2, 3, 4], 1, 2), [0, 1])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [0] != [0, 1]
+
+Second list contains 1 additional elements.
+First extra element 1:
+1
+
+- [0]
++ [0, 1]
+
+======================================================================
+FAIL: test_reset_does_not_mutate_input (test_inventory.InventoryTest.test_reset_does_not_mutate_input)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/storage/emulated/0/MT2/dsh/test/bench/tasks/bug_hunt/code/test_inventory.py", line 23, in test_reset_does_not_mutate_input
+    self.assertEqual(grid, [[1, 2], [3, 4]])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [[0, 0], [0, 0]] != [[1, 2], [3, 4]]
+
+First differing element 0:
+[0, 0]
+[1, 2]
+
+- [[0, 0], [0, 0]]
+?   ^  ^    ^  ^
+
++ [[1, 2], [3, 4]]
+?   ^  ^    ^  ^
+
+
+======================================================================
+FAIL: test_retries_zero_is_kept (test_inventory.InventoryTest.test_retries_zero_is_kept)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/storage/emulated/0/MT2/dsh/test/bench/tasks/bug_hunt/code/test_inventory.py", line 18, in test_retries_zero_is_kept
+    self.assertEqual(retries({"retries": 0}), 0)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 3 != 0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=5)

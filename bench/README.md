@@ -23,6 +23,8 @@
 | --- | --- |
 | `REPORT.md` | 运行时开销报告（启动 / RSS / token / 延迟 / 身份与诚实探测） |
 | `TASKS.md` | 做题 A/B（鹈鹕骑车 SVG、代码、算术、指令题）与 6 张渲染图 |
+| `BUGFIX.md` | bug 查找 + 修复 A/B（10 个 bug，5 个测试没覆盖） |
+| `tasks/bug_hunt/` | bug 题代码、隐藏测试、6 条回答与判分 |
 | `tasks/` | 做题脚本、36 条原始回答、SVG/PNG |
 | `extract_texts.mjs` | 挂载插件、捕获它注册的 6 段提示词 |
 | `measure_boot.mjs` | 真实启动 A/B（同一 profile 拷贝 + 独立 DSH_HOME） |
