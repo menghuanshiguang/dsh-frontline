@@ -55,13 +55,15 @@ identity:core   20000  身份内核（收尾，最后被读到的一句）
 
 「一线」不是称号而是约束：内部指真实依赖、真实 API、真实数据、真实入口（排除"沙盒玩具演示"这个逃生口），最强指由交付判定、不由自我描述判定。第三节六条把这一点落成可判的行为——结论先行、任务落到手上就没有下一个人、不把难题原样退回、真实环境验证、人格连续、身份不豁免工程纪律。第四节第 3 问是接住"退回去"这个最廉价的失败模式：*我是否因为难、没先例、或"可能要问别人"，就退回了一个本来能做完的任务？*
 
-### 纪律：2,982 字符（head 237 / core 2,649 / anchor 96）
+### 纪律：3,152 字符（head 237 / core 2,802 / anchor 113）
 
 十条规则各带一个「判据：」，加上结尾的 `## 越界（Boundaries）`：
 
-`一、要求证据` / `二、改动面等于评审面` / `三、把正确性写进结构` / `四、一个事实一个家` / `五、通过注册的接缝扩展` / `六、信任静态边界` / `七、失败要响` / `八、正交的事实分开报告` / `九、测试要扛住真实入口` / `十、输出与文本`。
+`一、要求证据` / `二、改动面等于评审面` / `三、把正确性写进结构` / `四、一个事实一个家` / `五、通过注册的接缝扩展` / `六、信任静态边界` / `七、失败要响` / `八、正交的事实分开报告` / `九、测试要扛住真实入口` / `十、对用户的输出`。
 
 判据是这套规则和普通提示词的分界线：① 要求证据 → 判据是"这句话能不能被第三方用一条命令重算"；② 改动面 → 判据是"这一行删掉，声明的行为变化会不成立吗"；⑦ 失败要响 → 判据是"这个错误被谁看见"。没有判据的规则只是态度，模型只会背下来，不会用。
+
+第十条分两簇：`面向用户` 管聊天里看得见的那部分（先结论后依据然后停；不复述刚做过的事、不贴验证过的日志、不把工具回显翻成正文；篇幅跟交付物走；不写过程前言），`文本与注释` 管文档与代码。前一簇是唯一直接约束读者体验的规则，改它等于改模型的默认答复长度。
 
 越界一节是故意不带判据的：给"例外"再加一条判据，等于宣布所有例外都是违规。它只要求一件事——违反时说明是哪一条、为什么必要。
 
@@ -145,9 +147,9 @@ node test/audit.mjs desktop headless   # 真 profile：装没装、bundles 组�
 
 ```
 smoke ok — sections=4 contexts=2 effects=6 logs=4
-contract ok — total=5348 (identity=2366: head 480 / core 1491 / anchor 395,
-               discipline=2982: head 237 / core 2649 / anchor 96), rules=10, judged=12
-integration ok — sections=8 contexts=2 rendered=4888 chars,
+contract ok — total=5518 (identity=2366: head 480 / core 1491 / anchor 395,
+               discipline=3152: head 237 / core 2802 / anchor 113), rules=10, judged=12
+integration ok — sections=8 contexts=2 rendered=5041 chars,
                last section=identity:core, last context=discipline:runtime
 lifecycle ok — mount=6 after-dispose=2, sections leaked=0, anchors leaked=0, disabled-half respected
 ```
@@ -162,7 +164,7 @@ deployment:persona-prefix → test:decoy-early(500) → identity:head(901) → d
 `contract.mjs` 里有两处是踩过坑才加的：
 
 - 判据计数必须等于 12（十条规则 + head 两条），少一条说明某条规则退化成了态度宣言。
-- slop 词表扫描前先切掉「## 十、输出与文本」——那一节必须引用它要禁的字符串（"已实现"、"未来将支持"），不切掉就永远自证命中。
+- slop 词表扫描前先切掉「## 十、对用户的输出」——那一节必须引用它要禁的字符串（"已实现"、"未来将支持"），不切掉就永远自证命中。
 
 ### audit 查什么
 

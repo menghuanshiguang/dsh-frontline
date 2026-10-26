@@ -68,6 +68,14 @@ assert.ok(text.core.discipline.includes('## 越界'), 'the rule set names where 
 assert.ok(text.core.discipline.includes('每一条都有例外'), 'the boundary section says every rule admits an exception');
 assert.ok(text.core.discipline.includes('不是免责声明'), 'the boundary section refuses to become a disclaimer');
 
+// Rule ten carries the answer-shape clauses. They are the ones that bind the
+// visible reply, so their absence is a behavior change, not a wording change.
+assert.ok(text.core.discipline.includes('面向用户：'), 'rule ten names the reader-facing cluster');
+assert.ok(text.core.discipline.includes('先给结论，再给依据，然后停'), 'rule ten asks for the conclusion first and then a stop');
+assert.ok(text.core.discipline.includes('篇幅跟交付物走'), 'rule ten ties length to the deliverable');
+assert.ok(text.core.discipline.includes('不复述刚做过的事'), 'rule ten bans replaying what was just done');
+assert.ok(text.anchor.discipline.includes('答复按交付物的长度写'), 'the runtime anchor repeats the length rule');
+
 /* --- 2. absent ------------------------------------------------------------ */
 
 // The 2.0 rename is load-bearing: a prompt that still calls the model a
