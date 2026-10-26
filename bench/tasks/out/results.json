@@ -1,0 +1,524 @@
+[
+  {
+    "task": "pelican",
+    "arm": "with",
+    "rep": 0,
+    "ms": 464,
+    "outTokens": 1947,
+    "chars": 4760,
+    "score": {
+      "svg": true,
+      "rendered": true,
+      "proseChars": 0,
+      "elements": 69,
+      "bytes": 4760
+    }
+  },
+  {
+    "task": "pelican",
+    "arm": "without",
+    "rep": 0,
+    "ms": 170,
+    "outTokens": 2404,
+    "chars": 6278,
+    "score": {
+      "svg": true,
+      "rendered": true,
+      "proseChars": 47,
+      "elements": 76,
+      "bytes": 6231
+    }
+  },
+  {
+    "task": "pelican",
+    "arm": "without",
+    "rep": 1,
+    "ms": 151,
+    "outTokens": 2038,
+    "chars": 5351,
+    "score": {
+      "svg": true,
+      "rendered": true,
+      "proseChars": 80,
+      "elements": 66,
+      "bytes": 5271
+    }
+  },
+  {
+    "task": "pelican",
+    "arm": "with",
+    "rep": 1,
+    "ms": 181,
+    "outTokens": 2362,
+    "chars": 5568,
+    "score": {
+      "svg": true,
+      "rendered": true,
+      "proseChars": 0,
+      "elements": 84,
+      "bytes": 5568
+    }
+  },
+  {
+    "task": "pelican",
+    "arm": "without",
+    "rep": 2,
+    "ms": 164,
+    "outTokens": 1469,
+    "chars": 3817,
+    "score": {
+      "svg": true,
+      "rendered": true,
+      "proseChars": 0,
+      "elements": 48,
+      "bytes": 3817
+    }
+  },
+  {
+    "task": "pelican",
+    "arm": "with",
+    "rep": 2,
+    "ms": 208,
+    "outTokens": 1241,
+    "chars": 3021,
+    "score": {
+      "svg": true,
+      "rendered": true,
+      "proseChars": 0,
+      "elements": 41,
+      "bytes": 3021
+    }
+  },
+  {
+    "task": "brackets",
+    "arm": "with",
+    "rep": 0,
+    "ms": 199,
+    "outTokens": 77,
+    "chars": 287,
+    "score": {
+      "ok": 8,
+      "total": 8,
+      "detail": "",
+      "code": "def balanced(s: str) -> bool:\n    pairs = {')': '(', ']': '[', '}': '{'}\n    stack = []\n    for ch in s:\n        if ch in '([{':\n            stack.append(ch)\n        elif ch in pairs:\n            if not stack or stack.pop() != pairs[ch]:\n                return False\n    return not stack"
+    }
+  },
+  {
+    "task": "brackets",
+    "arm": "without",
+    "rep": 0,
+    "ms": 361,
+    "outTokens": 77,
+    "chars": 287,
+    "score": {
+      "ok": 8,
+      "total": 8,
+      "detail": "",
+      "code": "def balanced(s: str) -> bool:\n    pairs = {')': '(', ']': '[', '}': '{'}\n    stack = []\n    for ch in s:\n        if ch in '([{':\n            stack.append(ch)\n        elif ch in pairs:\n            if not stack or stack.pop() != pairs[ch]:\n                return False\n    return not stack"
+    }
+  },
+  {
+    "task": "brackets",
+    "arm": "without",
+    "rep": 1,
+    "ms": 150,
+    "outTokens": 82,
+    "chars": 301,
+    "score": {
+      "ok": 8,
+      "total": 8,
+      "detail": "",
+      "code": "def balanced(s: str) -> bool:\n    pairs = {')': '(', ']': '[', '}': '{'}\n    stack = []\n    for ch in s:\n        if ch in '([{':\n            stack.append(ch)\n        elif ch in pairs:\n            if not stack or stack.pop() != pairs[ch]:\n                return False\n    return not stack"
+    }
+  },
+  {
+    "task": "brackets",
+    "arm": "with",
+    "rep": 1,
+    "ms": 201,
+    "outTokens": 77,
+    "chars": 287,
+    "score": {
+      "ok": 8,
+      "total": 8,
+      "detail": "",
+      "code": "def balanced(s: str) -> bool:\n    pairs = {')': '(', ']': '[', '}': '{'}\n    stack = []\n    for ch in s:\n        if ch in '([{':\n            stack.append(ch)\n        elif ch in pairs:\n            if not stack or stack.pop() != pairs[ch]:\n                return False\n    return not stack"
+    }
+  },
+  {
+    "task": "brackets",
+    "arm": "without",
+    "rep": 2,
+    "ms": 164,
+    "outTokens": 82,
+    "chars": 301,
+    "score": {
+      "ok": 8,
+      "total": 8,
+      "detail": "",
+      "code": "def balanced(s: str) -> bool:\n    pairs = {')': '(', ']': '[', '}': '{'}\n    stack = []\n    for ch in s:\n        if ch in '([{':\n            stack.append(ch)\n        elif ch in pairs:\n            if not stack or stack.pop() != pairs[ch]:\n                return False\n    return not stack"
+    }
+  },
+  {
+    "task": "brackets",
+    "arm": "with",
+    "rep": 2,
+    "ms": 234,
+    "outTokens": 99,
+    "chars": 374,
+    "score": {
+      "ok": 8,
+      "total": 8,
+      "detail": "",
+      "code": "def balanced(s: str) -> bool:\n    \"\"\"Return True if all ()[]{} in s are paired and properly nested.\"\"\"\n    pairs = {')': '(', ']': '[', '}': '{'}\n    stack = []\n    for ch in s:\n        if ch in '([{':\n            stack.append(ch)\n        elif ch in pairs:\n            if not stack or stack.pop() != pairs[ch]:\n                return False\n    return not stack"
+    }
+  },
+  {
+    "task": "bugfix",
+    "arm": "with",
+    "rep": 0,
+    "ms": 244,
+    "outTokens": 88,
+    "chars": 287,
+    "score": {
+      "ok": 8,
+      "total": 8,
+      "detail": "",
+      "code": "def binary_search(arr, target):\n    lo, hi = 0, len(arr) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            lo = mid + 1\n        else:\n            hi = mid - 1\n    return -1"
+    }
+  },
+  {
+    "task": "bugfix",
+    "arm": "without",
+    "rep": 0,
+    "ms": 162,
+    "outTokens": 88,
+    "chars": 287,
+    "score": {
+      "ok": 8,
+      "total": 8,
+      "detail": "",
+      "code": "def binary_search(arr, target):\n    lo, hi = 0, len(arr) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            lo = mid + 1\n        else:\n            hi = mid - 1\n    return -1"
+    }
+  },
+  {
+    "task": "bugfix",
+    "arm": "without",
+    "rep": 1,
+    "ms": 174,
+    "outTokens": 88,
+    "chars": 287,
+    "score": {
+      "ok": 8,
+      "total": 8,
+      "detail": "",
+      "code": "def binary_search(arr, target):\n    lo, hi = 0, len(arr) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            lo = mid + 1\n        else:\n            hi = mid - 1\n    return -1"
+    }
+  },
+  {
+    "task": "bugfix",
+    "arm": "with",
+    "rep": 1,
+    "ms": 208,
+    "outTokens": 88,
+    "chars": 287,
+    "score": {
+      "ok": 8,
+      "total": 8,
+      "detail": "",
+      "code": "def binary_search(arr, target):\n    lo, hi = 0, len(arr) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            lo = mid + 1\n        else:\n            hi = mid - 1\n    return -1"
+    }
+  },
+  {
+    "task": "bugfix",
+    "arm": "without",
+    "rep": 2,
+    "ms": 175,
+    "outTokens": 88,
+    "chars": 287,
+    "score": {
+      "ok": 8,
+      "total": 8,
+      "detail": "",
+      "code": "def binary_search(arr, target):\n    lo, hi = 0, len(arr) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            lo = mid + 1\n        else:\n            hi = mid - 1\n    return -1"
+    }
+  },
+  {
+    "task": "bugfix",
+    "arm": "with",
+    "rep": 2,
+    "ms": 244,
+    "outTokens": 88,
+    "chars": 287,
+    "score": {
+      "ok": 8,
+      "total": 8,
+      "detail": "",
+      "code": "def binary_search(arr, target):\n    lo, hi = 0, len(arr) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            lo = mid + 1\n        else:\n            hi = mid - 1\n    return -1"
+    }
+  },
+  {
+    "task": "batball",
+    "arm": "with",
+    "rep": 0,
+    "ms": 177,
+    "outTokens": 91,
+    "chars": 126,
+    "score": {
+      "correct": true
+    }
+  },
+  {
+    "task": "batball",
+    "arm": "without",
+    "rep": 0,
+    "ms": 187,
+    "outTokens": 119,
+    "chars": 168,
+    "score": {
+      "correct": true
+    }
+  },
+  {
+    "task": "batball",
+    "arm": "without",
+    "rep": 1,
+    "ms": 158,
+    "outTokens": 93,
+    "chars": 133,
+    "score": {
+      "correct": true
+    }
+  },
+  {
+    "task": "batball",
+    "arm": "with",
+    "rep": 1,
+    "ms": 245,
+    "outTokens": 44,
+    "chars": 62,
+    "score": {
+      "correct": true
+    }
+  },
+  {
+    "task": "batball",
+    "arm": "without",
+    "rep": 2,
+    "ms": 211,
+    "outTokens": 123,
+    "chars": 179,
+    "score": {
+      "correct": true
+    }
+  },
+  {
+    "task": "batball",
+    "arm": "with",
+    "rep": 2,
+    "ms": 217,
+    "outTokens": 53,
+    "chars": 74,
+    "score": {
+      "correct": true
+    }
+  },
+  {
+    "task": "api3",
+    "arm": "with",
+    "rep": 0,
+    "ms": 250,
+    "outTokens": 44,
+    "chars": 247,
+    "score": {
+      "sentences": 3,
+      "contract": 1,
+      "cjk": 0,
+      "perSentenceCjk": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    }
+  },
+  {
+    "task": "api3",
+    "arm": "without",
+    "rep": 0,
+    "ms": 222,
+    "outTokens": 46,
+    "chars": 92,
+    "score": {
+      "sentences": 3,
+      "contract": 1,
+      "cjk": 72,
+      "perSentenceCjk": [
+        14,
+        32,
+        26
+      ],
+      "pass": true
+    }
+  },
+  {
+    "task": "api3",
+    "arm": "without",
+    "rep": 1,
+    "ms": 222,
+    "outTokens": 42,
+    "chars": 259,
+    "score": {
+      "sentences": 3,
+      "contract": 1,
+      "cjk": 0,
+      "perSentenceCjk": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    }
+  },
+  {
+    "task": "api3",
+    "arm": "with",
+    "rep": 1,
+    "ms": 194,
+    "outTokens": 60,
+    "chars": 339,
+    "score": {
+      "sentences": 3,
+      "contract": 1,
+      "cjk": 0,
+      "perSentenceCjk": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    }
+  },
+  {
+    "task": "api3",
+    "arm": "without",
+    "rep": 2,
+    "ms": 195,
+    "outTokens": 51,
+    "chars": 98,
+    "score": {
+      "sentences": 3,
+      "contract": 1,
+      "cjk": 73,
+      "perSentenceCjk": [
+        28,
+        21,
+        24
+      ],
+      "pass": true
+    }
+  },
+  {
+    "task": "api3",
+    "arm": "with",
+    "rep": 2,
+    "ms": 198,
+    "outTokens": 34,
+    "chars": 73,
+    "score": {
+      "sentences": 3,
+      "contract": 1,
+      "cjk": 54,
+      "perSentenceCjk": [
+        12,
+        14,
+        28
+      ],
+      "pass": true
+    }
+  },
+  {
+    "task": "mug40",
+    "arm": "with",
+    "rep": 0,
+    "ms": 282,
+    "outTokens": 50,
+    "chars": 251,
+    "score": {
+      "words": 41,
+      "exclaim": 0,
+      "morning": 2,
+      "pass": false
+    }
+  },
+  {
+    "task": "mug40",
+    "arm": "without",
+    "rep": 0,
+    "ms": 145,
+    "outTokens": 50,
+    "chars": 251,
+    "score": {
+      "words": 42,
+      "exclaim": 0,
+      "morning": 2,
+      "pass": false
+    }
+  },
+  {
+    "task": "mug40",
+    "arm": "without",
+    "rep": 1,
+    "ms": 167,
+    "outTokens": 53,
+    "chars": 266,
+    "score": {
+      "words": 43,
+      "exclaim": 0,
+      "morning": 2,
+      "pass": false
+    }
+  },
+  {
+    "task": "mug40",
+    "arm": "with",
+    "rep": 1,
+    "ms": 228,
+    "outTokens": 49,
+    "chars": 263,
+    "score": {
+      "words": 40,
+      "exclaim": 0,
+      "morning": 2,
+      "pass": true
+    }
+  },
+  {
+    "task": "mug40",
+    "arm": "without",
+    "rep": 2,
+    "ms": 218,
+    "outTokens": 45,
+    "chars": 244,
+    "score": {
+      "words": 40,
+      "exclaim": 0,
+      "morning": 2,
+      "pass": true
+    }
+  },
+  {
+    "task": "mug40",
+    "arm": "with",
+    "rep": 2,
+    "ms": 293,
+    "outTokens": 46,
+    "chars": 232,
+    "score": {
+      "words": 38,
+      "exclaim": 0,
+      "morning": 2,
+      "pass": false
+    }
+  }
+]

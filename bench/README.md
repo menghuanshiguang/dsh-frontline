@@ -10,6 +10,8 @@
 
 ## 一句话结论
 
+（运行时；做题结论见 TASKS.md：正确率打平，差异只在输出形式与固定 prefill 成本。）
+
 不拖慢宿主：启动 −13 ms（噪声内）、RSS 无可分辨差异、主机侧渲染 1.26 µs/次。
 真正的成本在每次模型请求：**+5,530 字符 / +3,110 tokens / +53 ms 首字延迟**。
 行为上身份锁定生效（12/12 vs 0/12），但没有观察到"答复变短"，且出现一处显式约束回退
@@ -19,7 +21,9 @@
 
 | 路径 | 内容 |
 | --- | --- |
-| `REPORT.md` | 完整报告（方法、数字、局限、网上测试题清单） |
+| `REPORT.md` | 运行时开销报告（启动 / RSS / token / 延迟 / 身份与诚实探测） |
+| `TASKS.md` | 做题 A/B（鹈鹕骑车 SVG、代码、算术、指令题）与 6 张渲染图 |
+| `tasks/` | 做题脚本、36 条原始回答、SVG/PNG |
 | `extract_texts.mjs` | 挂载插件、捕获它注册的 6 段提示词 |
 | `measure_boot.mjs` | 真实启动 A/B（同一 profile 拷贝 + 独立 DSH_HOME） |
 | `real_prompt_delta.mjs` | 从真实会话记录重建 system prompt / runtime snapshot，算字符与 token 差 |
