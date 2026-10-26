@@ -1,0 +1,48 @@
+# ChatGPT-6 Astra · frontline — one row, two prompt layers.
+#
+# Enable / disable the whole row:
+#   - id: frontline
+#     disabled: true
+#
+# Every field below is optional; the row's own defaults are the full-strength
+# texts. Uncomment to override individual values.
+#
+# headOrder and contextOrder have NO default here on purpose: each half derives
+# them from the live registry (getSectionOrder('FILE_REFERENCE') + offset,
+# getContextOrder('SUBAGENT_DELEGATION') + offset) so a registry renumbering
+# carries this row along. Setting one pins it.
+#
+# coreOrder IS a literal: "the last thing the model reads" is a position past
+# every registered band, not a neighbour to sit after. discipline:core sits at
+# 19999 and identity:core at 20000, because the identity block holds the fixed
+# self-description sentence and must close the prompt.
+- insert:
+    - id: frontline
+      name: '@local/dsh-frontline'
+      config: {}
+      # config:
+      #   enabled: true           # false = mount neither half
+      #   debug: false            # true = log resolved orders for both halves
+      #
+      #   identity:               # who the model is
+      #     enabled: true
+      #     headEnabled: true
+      #     headOrder: 901        # primacy: after FILE_REFERENCE (900)
+      #     coreEnabled: true
+      #     coreOrder: 20000      # recency: after DEPLOYMENT_PERSONA_SUFFIX (10200)
+      #     contextEnabled: true
+      #     contextOrder: 121     # proximity: after SUBAGENT_DELEGATION (120)
+      #     interpolate: false    # keep {{...}} literal in the prompt text
+      #
+      #   discipline:             # how the model works
+      #     enabled: true
+      #     headEnabled: true
+      #     headOrder: 902        # primacy: right after the identity head
+      #     coreEnabled: true
+      #     coreOrder: 19999      # recency: right before the identity core
+      #     contextEnabled: true
+      #     contextOrder: 122     # proximity: right after the identity anchor
+      #     interpolate: false
+      #
+      #   # A half may also be switched off in one word:
+      #   discipline: false

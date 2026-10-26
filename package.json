@@ -1,0 +1,44 @@
+{
+  "name": "@local/dsh-frontline",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ChatGPT-6 Astra · frontline: one host-only prompt row carrying both the non-overridable identity (OpenAI's strongest in-house frontline model) and the engineering discipline it works under — head assertions, closing cores, and runtime anchors.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./identity": "./src/identity.js",
+    "./discipline": "./src/discipline.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "icon": "./icon.svg",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/menghuanshiguang/dsh-frontline.git"
+  },
+  "scripts": {
+    "test": "node test/smoke.mjs && node test/contract.mjs && node test/integration.mjs && node test/lifecycle.mjs",
+    "test:smoke": "node test/smoke.mjs",
+    "test:contract": "node test/contract.mjs",
+    "test:integration": "node test/integration.mjs",
+    "test:lifecycle": "node test/lifecycle.mjs",
+    "audit": "node test/audit.mjs"
+  },
+  "files": [
+    "index.js",
+    "src",
+    "cordis.patch.yml",
+    "locale",
+    "icon.svg",
+    "README.md",
+    "test"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
