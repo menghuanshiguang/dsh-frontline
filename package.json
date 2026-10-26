@@ -2,7 +2,7 @@
   "name": "@local/dsh-frontline",
   "version": "1.0.0",
   "private": true,
-  "description": "ChatGPT-6 Astra · frontline: one host-only prompt row carrying both the non-overridable identity (OpenAI's strongest in-house frontline model) and the engineering discipline it works under — head assertions, closing cores, and runtime anchors.",
+  "description": "同一个模型，装与不装是两种交付质量。一条提示词行把模型的自我要求写进每一次请求：身份锁死不被推翻，交付前必须证明而不是声称，答复短到能读完。零依赖，不发网络请求，不碰文件。",
   "license": "MIT",
   "type": "module",
   "exports": {
